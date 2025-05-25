@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Portfolio</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <!-- Add Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="animated-background">
+        <div class="floating-icon">💻</div>
+        <div class="floating-icon">🚀</div>
+        <div class="floating-icon">⚡</div>
+        <div class="floating-icon">🔮</div>
+        <div class="floating-icon">💡</div>
+        <div class="gradient-circle"></div>
+        <div class="gradient-circle"></div>
+        <div class="grid-overlay"></div>
+    </div>
+
+    <div id="particles-js"></div>
+
+    <div class="container">
+        <div class="content">
+            <!-- Progress Tracker -->
+            <div class="progress-container">
+                <div class="progress-dot" data-section="Home"></div>
+                <div class="progress-dot" data-section="Experience"></div>
+                <div class="progress-dot" data-section="Projects"></div>
+                <div class="progress-dot" data-section="Certificates"></div>
+                <div class="progress-dot" data-section="Skills"></div>
+                <div class="progress-dot" data-section="Coding"></div>
+                <div class="progress-dot" data-section="Contact"></div>
+            </div>
+
+            <!-- Header/Navigation - Moved to right side -->
+            <header>
+                <nav class="navbar">
+                    <a href="#home" class="active">
+                        <i class="fas fa-home"></i>
+                        <span>Home</span>
+                    </a>
+                    
+                    <a href="#projects">
+                        <i class="fas fa-code"></i>
+                        <span>Projects</span>
+                    </a>
+                    <a href="#certificates">
+                        <i class="fas fa-award"></i>
+                        <span>Certifications</span>
+                    </a>
+                    <a href="#skills">
+                        <i class="fas fa-tools"></i>
+                        <span>Skills</span>
+                    </a>
+                    <a href="#coding-profiles">
+                        <i class="fas fa fa-laptop-code"></i>
+                        <span>Coding Profiles</span>
+                    </a>
+                    <a href="#contact">
+                        <i class="fas fa-address-card"></i>
+                        <span>Contact</span>
+                    </a>
+                </nav>
+                <div class="menu-icon">&#9776;</div>
+            </header>
+
+            <!-- Home Section - Modified for left-right layout -->
+            <section id="home">
+                <div class="home-content">
+                    <div class="profile-pic-container">
+                        <img src="images/ppimg.jpeg" alt="Profile Picture" class="profile-pic">
+                    </div>
+                    <div class="profile-info">
+                        <h2>Neha Reddy Dasari</h2>
+                        <h3>Software Developer</h3>
+                        <p>Hi!! I’m a passionate developer with strong proficiency in Data Structures and Algorithms, Machine Learning, AI, and Web Development. Driven by innovation and adaptability, I thrive in solving intricate problems and turning ideas into impactful, high-performance solutions.
+                        </p>
+                        <div class="buttons-container">
+                            <a href="#contact" class="btn">Get In Touch</a>
+                            <a href="22211A0574_NehareddyDasari - Copy.pdf" target="_blank" class="btn btn-secondary">View
+                                Resume</a>
+                            <a href="#" class="btn btn-secondary video-btn">Video Resume</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            
+           
+
+         
+
+            <!-- Projects Section -->
+            <section id="projects">
+                <h2 class="title">Featured Projects</h2>
+                <div class="projects-container">
+                    <div class="projects-grid">
+                        <div class="project-card">
+                            <div class="project-img">
+                                <img src="images/breastcancer.webp" alt="Project Name">
+
+                            </div>
+                            <div class="project-info">
+                                <h3>Breast Cancer Survival Prediction Using ML  </h3>
+                                <p>This project aims to predict the survival outcomes of breast cancer patients using machine learning methods. The primary goal is to develop predictive models that can assist in identifying early-stage survivors, providing valuable insights for personalized treatment plans and improving patient outcomes.</p>
+                                <div class="project-links">
+                                    <a href="https://github.com/nehadasari/breast-cancer-survival-prediction"
+                                        target="_blank">Source Code</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <div class="project-img">
+                                <img src="images/creditcardfraud.png" alt="Project Name">
+                            </div>
+                            <div class="project-info">
+                                <h3>Creditcard-Fraud-Detection-Using-ML</h3>
+                                <p>Credit Card Fraud Detection Using Machine Learning is a project aimed at identifying fraudulent credit card transactions with high accuracy. By leveraging machine learning algorithms such as Logistic Regression,  and Decision Tree Classifier the system analyzes transaction patterns to distinguish between legitimate and fraudulent activity.This project demonstrates the practical application of ML in enhancing financial security and minimizing fraud risk.</p>
+                                <div class="project-links">
+                                    <a href="https://github.com/nehadasari/Creditcard-Fraud-Detection-Using-ML"
+                                        target="_blank">Source Code</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <div class="project-img">
+                                <img src="images/carrental.jpg" alt="Project Name">
+                            </div>
+                            <div class="project-info">
+                                <h3>Car Rental System</h3>
+                                <p>Car Rental System is a web-based application designed to streamline the process of renting vehicles. It allows users to browse available cars, make bookings, manage reservations, and handle payments efficiently. The system also includes an admin panel for managing car listings, user accounts, and rental records. This project showcases the integration of front-end and back-end technologies to deliver a user-friendly and functional rental platform..</p>
+                                <div class="project-links">
+                                    <a href="https://github.com/nehadasari/Car-Rental-System"
+                                        target="_blank">Source Code</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>     
+            </section>
+
+            <!-- Certificates Section -->
+            <section id="certificates">
+                <h2 class="title">Certificates & Achievements</h2>
+                <div class="certificates-container">
+                    <div class="certificate-column">
+                        <div class="certificate-card">
+                            <div class="certificate-info">
+                                <h3>Programming Essentials in C(CLA)</h3>
+                                <h4>Cisco Netacad</h4>
+                                <span class="date">Issued: March 2024</span>
+                                <div class="certificate-links">
+                                    <a href="certificates/Partner-_CLA_-_Programming_Essentials_in_C_certificate_22211a0574-bvrit-ac-in_19052e07-3470-4d5a-b504-99d17c0bb724.pdf"
+                                        target="_blank">View Certificate</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="certificate-column">
+                        <div class="certificate-card">
+                            <div class="certificate-info">
+                                <h3>Programming Essentials in Python (PCAP)</h3>
+                                <h4>Cisco Netacad</h4>
+                                <span class="date">Issued: March 2024</span>
+                                <div class="certificate-links">
+                                    <a href="certificates/Partner-_PCAP_-_Programming_Essentials_in_Python_certificate_22211a0574-bvrit-ac-in_d51b2958-d818-4ab3-a405-2f0f39eda9ae.pdf"
+                                        target="_blank">View Certificate</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="certificate-column">
+                        <div class="certificate-card">
+                            <div class="certificate-info">
+                                <h3>Business Ethics</h3>
+                                <h4>NPTEL</h4>
+                                <span class="date">Issued: March 2024</span>
+                                <div class="certificate-links">
+                                    <a href="certificates/NOC25MG12S1147007071 (1).pdf" target="_blank">View Certificate</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                </div>
+            </section>
+            <!-- Skills Section -->
+            <section id="skills">
+                <h2 class="title">Skills & Expertise</h2>
+                <div class="skills-container">
+                    <div class="skills-grid">
+                        <div class="skill-category">
+                            <h3>Programming Languages</h3>
+                            <div class="skills-list">
+                                <span class="skill-tag">Java</span>
+                                <span class="skill-tag">Python</span>
+                                <span class="skill-tag">C</span>
+                                
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h3>Web Development</h3>
+                            <div class="skills-list">
+                                <span class="skill-tag">HTML</span>
+                                <span class="skill-tag">CSS</span>
+                                <span class="skill-tag">JavaScript</span>
+                                <span class="skill-tag">Node.js</span>
+                                <span class="skill-tag">React.js</span>
+                                
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h3>Machine Learning and AI</h3>
+                            <div class="skills-list">
+                                <span class="skill-tag">Scikit Learn</span>
+                                <span class="skill-tag">Pandas</span>
+                                <span class="skill-tag">Numpy</span>
+                                
+                                <span class="skill-tag">TensorFlow</span>
+                                
+
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h3>Software Tools</h3>
+                            <div class="skills-list">
+                                <span class="skill-tag">MATLAB</span>
+                                <span class="skill-tag">StarUML</span>
+                                <span class="skill-tag">Google Earth Engine</span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Coding Profiles Section -->
+            <section id="coding-profiles">
+                <h2 class="title">Coding Profiles</h2>
+                <div class="coding-profiles-container">
+                    <div class="profiles-grid">
+                        <a href="https://leetcode.com/u/Neha_192/" target="_blank" class="profile-card">
+                            <img src="images/leetcode.png" alt="LeetCode" style="width: 3rem; height: 3rem;">
+                            <span>LeetCode</span>
+                        </a>
+                        <a href="https://www.hackerrank.com/profile/22211a0574" target="_blank" class="profile-card">
+                            <i class="fab fa-hackerrank"></i>
+                            <span>HackerRank</span>
+                        </a>
+                        
+
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact">
+                <h2 class="title">Get In Touch</h2>
+                <div>
+                    <h3>Email : nehadasari192@gmail.com</h3>
+                    <h3>Phone : +(91) 8328697956</h3>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/nehareddy-dasari-0b8963251/" target="_blank"><i
+                            class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/nehadasari" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+            </section>
+
+            <!-- Footer -->
+            <footer>
+                <p>&copy; 2025 Neha Reddy Dasari. All Rights Reserved.</p>
+            </footer>
+        </div>
+    </div>
+
+    <!-- Video Overlay -->
+    <div class="video-overlay">
+        <div class="close-video">
+            <i class="fas fa-times"></i>
+        </div>
+        <div class="video-container">
+            <video controls>
+                <source src="test.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+    <script src="script.js" > </script>
+
+</body>
+
+</html>
